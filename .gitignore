@@ -1,0 +1,27 @@
+# Default-deny inputs and generated daily histories.
+.env
+.env.*
+*.pem
+*.key
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+.pytest_cache/
+tmp/
+outputs/
+*.log
+~$*
+data/raw/
+data/processed/*
+!data/processed/strategy_metrics.csv
+!data/processed/robustness_windows.csv
+!data/processed/cost_sensitivity.csv
+!data/processed/strategy_yearly.csv
+!data/processed/strategy_trades.csv
+!data/processed/seasonality_monthly.csv
+!data/processed/momentum_quantiles.csv
+!data/processed/inventory_terciles.csv
+!data/processed/research_summary.json
